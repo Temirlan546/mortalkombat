@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* полупрозрачный */
+  color: white;
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+header nav a:hover {
+  opacity: 0.7;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('https://img.brodude.ru/gyVHcnR5KMeZmydUpitUx5rZDqXvCiRjT9z8UwBZhWk/rs:fill:1100:646:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIzLzAzLzkvYnJvZHVkZS5ydV85LjAzLjIwMjNfb2gzZGhsR3M5YTBncy5wbmc'); /* замените на ваш путь */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px; /* чтобы контент не уходил под header */
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* затемнение текста */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.desc-content,.desc-content2, .desc-content3, .desc-content4, .desc-content5{
+    margin: 30px;
+    box-shadow: 5px 5px 10px 0 gray;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+table {
+  
+}
+
+td {
+  border: 2px solid black;
+}
+
