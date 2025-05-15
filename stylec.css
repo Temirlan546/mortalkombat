@@ -14,7 +14,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6); /* полупрозрачный */
+  background-color: rgba(0, 0, 0, 0.6); 
   color: white;
   padding: 15px 0;
   z-index: 1000;
@@ -48,13 +48,13 @@ header nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 80px; /* чтобы контент не уходил под header */
+  padding-top: 80px; 
 }
 
 .hero-content {
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5); /* затемнение текста */
+  background-color: rgba(0, 0, 0, 0.5); 
   padding: 20px;
   border-radius: 10px;
 }
