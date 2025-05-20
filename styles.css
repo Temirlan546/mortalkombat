@@ -74,3 +74,31 @@ td {
   border: 2px solid black;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border: 2px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border-color: #ff0000;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #ffcc00;
+}
