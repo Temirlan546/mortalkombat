@@ -109,3 +109,32 @@ td {
   margin-bottom: 10px;
   height: auto;
 }
+
+.video-section {
+  padding: 40px 20px;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+.video-section h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: crimson;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.video {
+  max-width: 360px;
+}
+.video p {
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 16px;
+}
