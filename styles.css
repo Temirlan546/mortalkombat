@@ -66,6 +66,10 @@ header nav a:hover {
     border-radius: 15px;
 }
 
+table {
+  
+}
+
 td {
   border: 2px solid black;
 }
@@ -97,4 +101,11 @@ td {
 .card h3 {
   margin-top: 0;
   color: #ffcc00;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  height: auto;
 }
